@@ -1,2 +1,2 @@
-# scretch
-Odin Project etch-a-scetch
+# sketch
+Odin Project etch-a-sketch
