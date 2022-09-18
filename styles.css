@@ -1,5 +1,42 @@
-.container {
-    width: 50%;
-    height: 50%;
-    border: 2 px solid black;
+body{
+    margin-top: -10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16,2fr);
+    grid-template-rows: repeat(16, 2fr);
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    align-content: flex-start;
+    margin: auto;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button { 
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#gridInput {
+    margin: 1em;
+    padding: 1em;
+}
+
+.pixel {
+    border: 1px solid orange;
+    background-color: darkgreen;
 }

@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container"></div>
+    <div id="header">
+        <button id="gridbtn" onclick="createGrid()">CHANGE GRID SIZE</button>
+        <input id="gridInput" type="number" value="16" min="2" max="80">
+    </div>
+    <div id="container"></div>
     <script src="app.js"></script>
 </body>
 </html>
